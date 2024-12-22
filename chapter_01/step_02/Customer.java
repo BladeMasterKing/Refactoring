@@ -1,4 +1,4 @@
-package chapter_01.refact_03;
+package chapter_01.step_02;
 
 import java.util.Enumeration;
 import java.util.Vector;

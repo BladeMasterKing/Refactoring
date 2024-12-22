@@ -1,4 +1,4 @@
-package chapter_01.refact_02;
+package chapter_01.step_03;
 
 /**
  * @author jiansheng

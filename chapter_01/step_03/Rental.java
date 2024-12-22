@@ -1,4 +1,4 @@
-package chapter_01.refact_02;
+package chapter_01.step_03;
 
 /**
  * @author jiansheng
@@ -42,5 +42,12 @@ public class Rental {
                 break;
         }
         return result;
+    }
+    public int getFrequentRenterPoints(){
+        if (getMovie().getPriceCode() == chapter_01.step_02.Movie.NEW_RELEASE && getDaysRented() > 1) {
+            return 2;
+        } else {
+            return 1;
+        }
     }
 }
